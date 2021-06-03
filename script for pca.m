@@ -33,15 +33,7 @@ for i = 1:4100
 end
 
 
-sum2 = 0;
-for i = 1:4100
-    sum2 = sum2 + Dsorted(i,i);
-end
-
-importance = zeros(1,4100);
-for i = 1:4100
-   importance(1,i) = Dsorted(i,i)/sum2; 
-end
+coordinates = c(i,1:20);
 
 
 
