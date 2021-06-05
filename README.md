@@ -1,1 +1,3 @@
-test
+This projects aims to classify the types of neural cells using unsupervised machine learning. The data set is a open dataset of 5K cells from the adult mouse brain available from 10X genomics. The original dataset can be found [here](https://github.com/r3fang/SnapATAC/blob/master/examples/10X_brain_5k/README.md).
+
+We performed 3 types of clustering (Gaussian misture, K-means, Spectral clustering) on 4 dimension reductions (Diffusion map, Principal component analysis, Truncated singular value decomposition, t-distributed stochastic neighbor embedding). The code for each dimension reduction is in its seperate jupyter notebook. The folder "Clustering and results" contains the jupyternotebooks that performs the clustering, and all figures/tables the report the result. Details about the results can be found in the README file inside the folder.
